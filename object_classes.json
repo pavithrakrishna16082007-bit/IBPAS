@@ -1,0 +1,34 @@
+{
+  "_comment": "Class ORDER defines the YOLO class ids. Add new classes ONLY at the END of the list, or relabel/retrain everything.",
+  "classes": [
+    "pen",
+    "pencil",
+    "ball",
+    "cube",
+    "rectangular_box",
+    "cylindrical_cup",
+    "bottle",
+    "spoon",
+    "small_object",
+    "unknown_object"
+  ],
+  "grasp_candidates": {
+    "pen": "PRECISION_PINCH",
+    "pencil": "PRECISION_PINCH",
+    "small_object": "PRECISION_PINCH",
+    "ball": "SPHERICAL_WRAP",
+    "cube": "POWER_OR_LATERAL_GRASP",
+    "rectangular_box": "POWER_OR_LATERAL_GRASP",
+    "cylindrical_cup": "CYLINDRICAL_GRASP",
+    "bottle": "CYLINDRICAL_GRASP",
+    "spoon": null,
+    "unknown_object": null
+  },
+  "detection": {
+    "min_confidence": 0.5,
+    "iou": 0.5,
+    "imgsz": 640,
+    "max_inference_hz": 10.0,
+    "stale_after_s": 1.0
+  }
+}

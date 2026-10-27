@@ -1,0 +1,22 @@
+{
+  "_comment": "Motion is OFF by default. Every value is a conservative placeholder to be reviewed against YOUR hardware.",
+  "motion_enabled": false,
+  "global_angle_min": 0,
+  "global_angle_max": 180,
+  "max_step_deg": 3.0,
+  "step_interval_s": 0.05,
+  "max_grasp_duration_s": 15.0,
+  "min_confidence_for_grasp": 0.7,
+  "allowed_hand_states": [
+    "IDLE",
+    "READY"
+  ],
+  "serial_timeout_s": 2.0,
+  "camera_timeout_s": 1.0,
+  "command_timeout_s": 3.0,
+  "fsr_max_raw": 4.5,
+  "fsr_units_note": "raw firmware units, NOT calibrated to newtons",
+  "require_human_approval_default": true,
+  "on_lost_camera": "hold",
+  "on_lost_serial": "hold"
+}

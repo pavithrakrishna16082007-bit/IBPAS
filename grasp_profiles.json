@@ -1,0 +1,284 @@
+{
+  "_comment": "UNCALIBRATED TEMPLATE. No finger angle is invented: targets stay null until you calibrate them (calibrate_grasps.py) and approve each profile.",
+  "profiles": {
+    "PRECISION_PINCH": {
+      "name": "PRECISION_PINCH",
+      "description": "thumb-index pinch for thin, light objects (pen, pencil, small objects)",
+      "intended_geometry": {
+        "min_dimension_mm": null,
+        "max_dimension_mm": 20
+      },
+      "finger_targets": {
+        "thumb": null,
+        "index": null,
+        "middle": null,
+        "ring": null,
+        "pinky": null
+      },
+      "angle_limits": {
+        "thumb": {
+          "min": null,
+          "max": null
+        },
+        "index": {
+          "min": null,
+          "max": null
+        },
+        "middle": {
+          "min": null,
+          "max": null
+        },
+        "ring": {
+          "min": null,
+          "max": null
+        },
+        "pinky": {
+          "min": null,
+          "max": null
+        }
+      },
+      "curl_direction": {
+        "thumb": "unknown",
+        "index": "unknown",
+        "middle": "unknown",
+        "ring": "unknown",
+        "pinky": "unknown"
+      },
+      "release_pose": {
+        "thumb": null,
+        "index": null,
+        "middle": null,
+        "ring": null,
+        "pinky": null
+      },
+      "closing_step_deg": 2.0,
+      "force_target": null,
+      "force_max": null,
+      "requires_force_feedback": false,
+      "release_conditions": [
+        "user_release",
+        "force_exceeded",
+        "lost_camera",
+        "lost_serial",
+        "grasp_timeout"
+      ],
+      "confidence_threshold": 0.7,
+      "requires_human_approval": true,
+      "approved": false,
+      "calibrated": false,
+      "approved_by": null,
+      "approved_at": null
+    },
+    "SPHERICAL_WRAP": {
+      "name": "SPHERICAL_WRAP",
+      "description": "fingers wrap around a ball-shaped object",
+      "intended_geometry": {
+        "min_dimension_mm": null,
+        "max_dimension_mm": null
+      },
+      "finger_targets": {
+        "thumb": null,
+        "index": null,
+        "middle": null,
+        "ring": null,
+        "pinky": null
+      },
+      "angle_limits": {
+        "thumb": {
+          "min": null,
+          "max": null
+        },
+        "index": {
+          "min": null,
+          "max": null
+        },
+        "middle": {
+          "min": null,
+          "max": null
+        },
+        "ring": {
+          "min": null,
+          "max": null
+        },
+        "pinky": {
+          "min": null,
+          "max": null
+        }
+      },
+      "curl_direction": {
+        "thumb": "unknown",
+        "index": "unknown",
+        "middle": "unknown",
+        "ring": "unknown",
+        "pinky": "unknown"
+      },
+      "release_pose": {
+        "thumb": null,
+        "index": null,
+        "middle": null,
+        "ring": null,
+        "pinky": null
+      },
+      "closing_step_deg": 2.0,
+      "force_target": null,
+      "force_max": null,
+      "requires_force_feedback": false,
+      "release_conditions": [
+        "user_release",
+        "force_exceeded",
+        "lost_camera",
+        "lost_serial",
+        "grasp_timeout"
+      ],
+      "confidence_threshold": 0.7,
+      "requires_human_approval": true,
+      "approved": false,
+      "calibrated": false,
+      "approved_by": null,
+      "approved_at": null
+    },
+    "POWER_OR_LATERAL_GRASP": {
+      "name": "POWER_OR_LATERAL_GRASP",
+      "description": "broad or box-shaped objects; suitability depends on the hand's mechanical geometry",
+      "intended_geometry": {
+        "min_dimension_mm": null,
+        "max_dimension_mm": null
+      },
+      "finger_targets": {
+        "thumb": null,
+        "index": null,
+        "middle": null,
+        "ring": null,
+        "pinky": null
+      },
+      "angle_limits": {
+        "thumb": {
+          "min": null,
+          "max": null
+        },
+        "index": {
+          "min": null,
+          "max": null
+        },
+        "middle": {
+          "min": null,
+          "max": null
+        },
+        "ring": {
+          "min": null,
+          "max": null
+        },
+        "pinky": {
+          "min": null,
+          "max": null
+        }
+      },
+      "curl_direction": {
+        "thumb": "unknown",
+        "index": "unknown",
+        "middle": "unknown",
+        "ring": "unknown",
+        "pinky": "unknown"
+      },
+      "release_pose": {
+        "thumb": null,
+        "index": null,
+        "middle": null,
+        "ring": null,
+        "pinky": null
+      },
+      "closing_step_deg": 2.0,
+      "force_target": null,
+      "force_max": null,
+      "requires_force_feedback": true,
+      "release_conditions": [
+        "user_release",
+        "force_exceeded",
+        "lost_camera",
+        "lost_serial",
+        "grasp_timeout"
+      ],
+      "confidence_threshold": 0.7,
+      "requires_human_approval": true,
+      "approved": false,
+      "calibrated": false,
+      "approved_by": null,
+      "approved_at": null
+    },
+    "CYLINDRICAL_GRASP": {
+      "name": "CYLINDRICAL_GRASP",
+      "description": "fingers wrap a compatible cup or bottle",
+      "intended_geometry": {
+        "min_dimension_mm": null,
+        "max_dimension_mm": null
+      },
+      "finger_targets": {
+        "thumb": null,
+        "index": null,
+        "middle": null,
+        "ring": null,
+        "pinky": null
+      },
+      "angle_limits": {
+        "thumb": {
+          "min": null,
+          "max": null
+        },
+        "index": {
+          "min": null,
+          "max": null
+        },
+        "middle": {
+          "min": null,
+          "max": null
+        },
+        "ring": {
+          "min": null,
+          "max": null
+        },
+        "pinky": {
+          "min": null,
+          "max": null
+        }
+      },
+      "curl_direction": {
+        "thumb": "unknown",
+        "index": "unknown",
+        "middle": "unknown",
+        "ring": "unknown",
+        "pinky": "unknown"
+      },
+      "release_pose": {
+        "thumb": null,
+        "index": null,
+        "middle": null,
+        "ring": null,
+        "pinky": null
+      },
+      "closing_step_deg": 2.0,
+      "force_target": null,
+      "force_max": null,
+      "requires_force_feedback": true,
+      "release_conditions": [
+        "user_release",
+        "force_exceeded",
+        "lost_camera",
+        "lost_serial",
+        "grasp_timeout"
+      ],
+      "confidence_threshold": 0.7,
+      "requires_human_approval": true,
+      "approved": false,
+      "calibrated": false,
+      "approved_by": null,
+      "approved_at": null
+    },
+    "UNKNOWN_OR_UNSAFE": {
+      "name": "UNKNOWN_OR_UNSAFE",
+      "description": "no grasp is attempted",
+      "finger_targets": null,
+      "approved": false,
+      "calibrated": false
+    }
+  }
+}
